@@ -1,8 +1,11 @@
 <?php
 // logout.php
 
-// TODO 1: Start the session using session_start()
+// Start session
+session_start();
 
-// TODO 2: Destroy the session using session_destroy()
+// Destroy Session
+session_destroy();
 
-// TODO 3: Redirect the user back to home.php using header("Location: ...")
+// Redirect to home page
+header("Location: home.php");
